@@ -1,16 +1,12 @@
 # Collect
 Collect is a gem for connecting [ODK Collect](https://docs.getodk.org/collect-intro/) forms to a Rails application.
 
-A step by step guide to create a working example app is available at:
-https://github.com/donBigote/collect/wiki/Example-App-Tutorial
 
-Browse an example app repo here:
-https://github.com/donBigote/collect_app
 
 ## Installation
 Add this line to your application's Gemfile:
 ```ruby
-gem 'collect', github: 'donBigote/collect', branch: 'main'
+gem 'collect', github: 'SistematicaHN/collect', branch: 'main'
 ```
 Run bundle install.
 ```bash
@@ -33,7 +29,7 @@ You will need an environment variable defined as "DOMAIN".
 `DOMAIN` is the domain your app uses.
 For example:
 ```
-DOMAIN: "https://45ff5b117a8b.ngrok.io"
+DOMAIN: "https://96fdf8f744b6g.ngrok.io"
 ```
 Add the 'crack' and 'responders',  gem to your app's gemfile.
 ```bash
@@ -77,7 +73,7 @@ localhost:3000/collect/forms/new
 
 ## License
 
-MIT License. Copyright 2019-2021 K&F Consulting. http://www.dataconsulta.com
+MIT License. Copyright 2022.
 
 
 # collect
