@@ -76,4 +76,4 @@ localhost:3000/collect/forms/new
 MIT License. Copyright 2022.
 
 
-# collect
+# Sistematica S. de R.L (www.sistematica.hn)
